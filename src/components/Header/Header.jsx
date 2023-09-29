@@ -14,17 +14,18 @@ const Header = () => {
         >
           SHOP
         </Link>
+        
         <Link
-          to="/"
-          className="px-4 py-2 hover:bg-slate-900 hover:rounded-xl text-white font-condensed font-semibold"
-        >
-          HOME
-        </Link>
-        <Link
-          to="/contact"
+          to="/contactus"
           className="px-4 py-2 hover:bg-slate-900 hover:rounded-xl text-white font-condensed font-semibold"
         >
           CONTACT
+        </Link>
+        <Link
+          to="/login"
+          className="px-4 py-2 hover:bg-slate-900 hover:rounded-xl text-white font-condensed font-semibold"
+        >
+          LOGIN
         </Link>
       </div>
     </div>
